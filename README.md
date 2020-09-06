@@ -12,8 +12,6 @@ Timestamps proved difficult to do in Elm, but thankfully combining several packa
 
 I'm also attaching the output of the program for a Daily csv files at different outage levels. Pic1 shows the outage level of (at least) 1 minute, while Pic2 shows the outage level of 3 minutes on the same file (which then only picks up a single outage.)
 
-![alt text](https://github.com/esinonal/outage-detection-website/blob/master/pic1.jpg?raw=true)
-
 Since I used Vegalite, I was building with "elm make --output=elm.js --optimize Main.elm", the contents of which I put into the build.sh file.
 
 I was originally planning to make my application fetch the csv file from the AoT website, after the user inputted the particular file they wanted, but in the end this proved to be a bit difficult, and I wanted to concentrate my efforts more on getting the application working well itself.
